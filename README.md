@@ -1,2 +1,2 @@
 # CSharp_calculator
-Study Calculatro
+Study Calculator
