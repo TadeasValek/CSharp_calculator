@@ -20,10 +20,10 @@ description: Overrides the "display" variable with 0, erases all other temporary
 
 4) Operator
 	Parameters: OperationIndex (integer)
-description: Called by clicking on operation button. Assigns tempNumber converted to integer to memNumber. Assigns the Operation index (given by the particular button) to memOperotor.
+description: Called by clicking on operation button. Assigns tempNumber converted to integer to memNumber. Assigns the Operation index (given by the particular button) to memOperator.
 Returns: Nothing
 
 5) Calculate
 	Parameters:	none
-Returns: integer
+Returns: Nothing
 description: This method will be called by pressing = button. It will give result of given mathematical operation (based on memOperator index) of memNumber and tempNumber (converted to integer). Saves the result to display variable, call RefreshDisplay method and empties the used variables.
